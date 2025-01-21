@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    border-bottom: 2px solid black;
+}
+.navs{
+    background-color: rgb(76, 124, 201);
+}
+.nav-lists{
+display: flex;
+justify-content: space-between;
+color: white;
+}
+.nav-list-items{
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.nav-list-items:hover{
+    background-color: aquamarine;
+    /* color: green; */
+}
