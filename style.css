@@ -9,6 +9,10 @@ header{
 .navs{
     background-color: rgb(76, 124, 201);
 }
+.Main_Logo{
+width: 20rem;
+padding: 10px 0px 5px 40px;
+}
 .nav-lists{
 display: flex;
 justify-content: space-between;
@@ -16,10 +20,47 @@ color: white;
 }
 .nav-list-items{
     list-style: none;
-    padding: 10px;
+    padding: 20px;
     cursor: pointer;
 }
 .nav-list-items:hover{
     background-color: aquamarine;
     /* color: green; */
+}
+.sec1{
+    border-bottom: 1px solid beige;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    padding: 0.5rem;
+}
+
+.hot_topic{
+    display: flex;
+}
+
+
+.hot-topic-list{
+    display:flex;
+    justify-content: space-between;
+}
+    .hot-topic-list span{
+        font-size: small;
+        /* padding-top:1rem; */
+        padding: 0.5rem;
+
+    }
+
+.hot-topic-list img{
+    width: 2rem;
+}
+.search_field{
+    width: 90%;
+    margin-top: 0.2rem;
+    padding: 0.2rem;
+    background-color: bisque;
+
+}
+.search_box img{
+    height: 0.8rem;
+    cursor: pointer;
 }
