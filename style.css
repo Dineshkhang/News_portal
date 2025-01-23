@@ -28,7 +28,7 @@ color: white;
     /* color: green; */
 }
 .sec1{
-    border-bottom: 1px solid beige;
+    /* border-bottom: 1px solid beige; */
     display: grid;
     grid-template-columns: 80% 20%;
     padding: 0.5rem;
@@ -53,14 +53,40 @@ color: white;
 .hot-topic-list img{
     width: 2rem;
 }
+.search_box{
+    border: 2px solid black;
+    background-color: rgb(122, 151, 142);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .search_field{
-    width: 90%;
-    margin-top: 0.2rem;
-    padding: 0.2rem;
-    background-color: bisque;
-
+    /* width: 90%; */
+    border: none;
+    outline: none;
+background-color: transparent;
+color: white;
+/* font-size: large; */
 }
 .search_box img{
     height: 0.8rem;
     cursor: pointer;
+}
+.search_field::placeholder{
+    color:white;
+}
+/* section 2 css */
+.sec2{
+ text-align: center;
+    margin-top: 1rem;
+}
+.headline1{
+    font-size: larger;
+    cursor:pointer;
+    color: rgb(70, 70, 115);
+    padding-bottom: 1rem;
+}
+.headline1:hover{
+    color: blue;
 }
