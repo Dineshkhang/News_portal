@@ -90,3 +90,45 @@ color: white;
 .headline1:hover{
     color: blue;
 }
+
+.icon-clock-com img{
+    padding:2px;
+
+}
+.ok-icon2{
+    height: 5rem;
+    width: 5rem;
+}
+.icon-clock-com span{   }
+/* .headline1-img{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    border-radius: 15px;
+} */
+.headline1-article{
+    font-size: 1rem;
+    padding-top: 1rem;
+text-align: center;
+}
+.main-footer{
+    display: flex;
+    background-color: aliceblue;
+    justify-content: space-evenly;
+    
+}
+.main-footer h3{
+    font-size: larger;
+color: blue;
+padding: 10px;
+}
+.main-footer li{
+    list-style: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    /* font-weight: bold; */
+}
+.main-footer li:hover{
+    color: blue;
+}
+
