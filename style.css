@@ -193,8 +193,9 @@ padding: 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .sec5 img{
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 320px;
+    margin-bottom: 10px;
 }
 .post-nav{
     /* padding: 2.5rem; */
@@ -220,14 +221,20 @@ padding: 10px;
 }
 .post-nav-img{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     border: 2px solid yellow;
 }
 .post-nav-img img{ 
-    height: 225px;
-    padding-bottom: 0.5rem;
-    margin-bottom: 3rem;
+    height: 450px;
+    width: 450px;
+    
 }
+.small2div img{
+    height: 250px;
+    /* width: 250px; */
+    margin: 5px;
+}
+
 .LS-IMGS div{
     display: flex;
     justify-content: center;
@@ -244,4 +251,45 @@ padding: 10px;
     font-size: larger;
     font-weight: bolder;
 }
-
+.sec4-imgs div{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: justify;
+}
+.sec4-imgs p{
+    /* display: flex; */
+    color: white;
+    position: absolute;
+    bottom: 2rem;
+    font-weight: bolder; 
+    text-justify: auto;
+    
+} 
+.sec4-imgs button{
+   
+    position: absolute;
+    right: 2rem;
+    top: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: white;
+    padding: 6px;
+    font-weight: bolder; 
+    text-justify: auto;
+    background-color: rgba(118, 118, 245, 0.742);
+}
+.sec5-imgs div{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: justify;
+}
+.sec5-imgs p{
+    /* display: flex; */
+    color: white;
+    position: absolute;
+    bottom: 2rem;
+    font-weight: bolder; 
+    text-justify: auto;
+}
