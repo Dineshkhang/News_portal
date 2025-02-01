@@ -225,14 +225,18 @@ padding: 10px;
     border: 2px solid yellow;
 }
 .post-nav-img img{ 
-    height: 450px;
+    height: 550px;
     width: 450px;
     
 }
 .small2div img{
-    height: 250px;
-    /* width: 250px; */
+    height: 260px;
     margin: 5px;
+}
+.post-img-item3{
+    width: fit-content;
+    padding-left: 30px;
+
 }
 
 .LS-IMGS div{
@@ -292,4 +296,23 @@ padding: 10px;
     bottom: 2rem;
     font-weight: bolder; 
     text-justify: auto;
+}
+.post-nav-img div{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: justify;
+}
+.small2div{
+ display: flex; 
+ flex-direction: column-reverse;
+    justify-content: center;
+    position: relative;
+    text-align: justify;
+}
+.post-nav-img p{
+    color: white;
+    position: absolute;
+    bottom: 100px;
+
 }
