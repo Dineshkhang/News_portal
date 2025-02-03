@@ -15,6 +15,7 @@ header{
     /* position: fixed; */
     position: sticky;
     top:0px;
+    z-index: 1;
 }
 .Main_Logo{
 width: 20rem;
