@@ -251,6 +251,11 @@ padding: 10px;
     width: 450px;
     
 }
+.post-nav-img p{
+padding: 0 60px;
+text-align: justify;
+font-size: larger;
+} 
 .small2div img{
     height: 260px;
     margin: 5px;
